@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My first snapshot test testing buttons 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <button
+      class="show"
+    >
+      Hide
+    </button>
+    <button>
+      Increment
+    </button>
+    <div
+      class="container-grid css-k1l722"
+    >
+      <div
+        class="css-1o6t3t0"
+      >
+        <h2
+          class="chakra-heading css-syg44k"
+        >
+          0
+        </h2>
+        <button
+          class="chakra-button css-1uueag5"
+          type="button"
+        >
+          CE
+        </button>
+        <button
+          class="chakra-button css-1ad2x05"
+          type="button"
+        >
+          DEL
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="chakra-button css-jut409"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="chakra-button css-h211ee"
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class="chakra-button css-h211ee"
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="chakra-button css-h211ee"
+          type="button"
+        >
+          *
+        </button>
+        <button
+          class="chakra-button css-h211ee"
+          type="button"
+        >
+          /
+        </button>
+        <button
+          class="chakra-button css-h211ee"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</DocumentFragment>
+`;
+
+exports[`Test 3 Confirm Calculator Btns 1`] = `
+<DocumentFragment>
+  <div
+    class="container-grid css-1hm7hk9"
+  >
+    <div
+      class="css-ua1pc9"
+    >
+      <h2
+        class="chakra-heading css-bnwn42"
+        data-testid="display"
+      >
+        0
+      </h2>
+      <button
+        class="chakra-button css-19lwpln"
+        type="button"
+      >
+        CE
+      </button>
+      <button
+        class="chakra-button css-91n2j2"
+        type="button"
+      >
+        DEL
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        *
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        /
+      </button>
+      <button
+        class="chakra-button css-4xx2wk"
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
