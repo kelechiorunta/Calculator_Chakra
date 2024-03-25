@@ -26,23 +26,28 @@ function Calculator() {
             type:"DELETE"
         })
     }
+    const add_decimal = () =>{
+        dispatch({
+            type:"ADD_DECIMAL"
+        })
+    }
     const computation = (value) =>{
         if (state.operator==="+"){
-            operand += value
+            operand += Number(value)
             value = 0
         }
         else if (state.operator==="-"){
-            operand -= value
+            operand -= Number(value)
             value = 0
         }
         else if (state.operator==="*"){
-            operand *= value
+            operand *= Number(value)
         }
         else if (state.operator==="/"){
-            operand /= value
+            operand /= Number(value)
         }
         else{
-            operand = value
+            operand = Number(value)
         }
         return operand
     }
@@ -103,6 +108,8 @@ function Calculator() {
             onClick={getComputation}>/</Button>
              <Button colorScheme='green'  
             onClick={getComputation}>=</Button>
+            <Button colorScheme='yellow'  
+            onClick={add_decimal}>.</Button>
         </Grid>
            </Box>
   )
