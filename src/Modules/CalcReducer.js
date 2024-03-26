@@ -19,6 +19,9 @@ export const CalcReducer = (state, action) =>{
             return{...state, digit: state.operatorClicked===true?"0.":(state.digit.toString().includes("."))? (state.digit.toString()) : state.digit+".",
                              operator: state.operator, operatorClicked: false}
         }
+        case "TOGGLE_NEGATE":{
+            return{...state, digit: Number(-state.digit), operator: state.operator, operatorClicked: state.operatorClicked }
+        }
         default:{
             return state
         }

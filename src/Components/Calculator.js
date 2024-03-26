@@ -31,6 +31,11 @@ function Calculator() {
             type:"ADD_DECIMAL"
         })
     }
+    const toggle_negate = () =>{
+        dispatch({
+            type:"TOGGLE_NEGATE"
+        })
+    }
     const computation = (value) =>{
         if (state.operator==="+"){
             operand += Number(value)
@@ -106,10 +111,12 @@ function Calculator() {
             onClick={getComputation}>*</Button>
              <Button colorScheme='green'  
             onClick={getComputation}>/</Button>
-             <Button colorScheme='green'  
+             <Button colorScheme='green' gridColumn={{base:'span 2', sm:'span 2', md:'span 1'}}  
             onClick={getComputation}>=</Button>
             <Button colorScheme='yellow'  
             onClick={add_decimal}>.</Button>
+             <Button colorScheme='yellow'  
+            onClick={toggle_negate}>-/+</Button>
         </Grid>
            </Box>
   )
