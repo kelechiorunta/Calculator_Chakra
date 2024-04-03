@@ -4,6 +4,7 @@ import { INITIATE } from "./actions";
 
 export const SliceReducer = createSlice({
     name: 'base',
+    
     initialState:{
         counter: 12,
     },
